@@ -4,8 +4,8 @@
 #
 # Description:
 #  
-#	This program scrapes the Ontario COVID web site and extracts out key 
-#   information.
+# This program scrapes the SaltWire web site (Cape Breton Post) for obituaries
+# listed there, and writes it out into HTML
 #
 # History:
 #
