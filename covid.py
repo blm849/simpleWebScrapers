@@ -35,9 +35,6 @@ soup = BeautifulSoup(page.content, "html.parser")
 # If you need to test the code, use this statement instead
 # soup = BeautifulSoup(open("covid-19.ontario.ca.html"), "html.parser")
 
-# Start processing the results from Beautiful Soup
-final_link = soup.p.a
-final_link.decompose()
 
 # All the data for this web page are stored in DIV with class covid-data-block
 
