@@ -1,6 +1,6 @@
 #############################################################################
 #
-# covid.py                                 
+# obit.py                                 
 #
 # Description:
 #  
@@ -9,7 +9,7 @@
 #
 # History:
 #
-#       2022.03.25	Initial implementation. (BLM)
+#       2022.03.30	Initial implementation. (BLM)
 #
 # Examples:
 #
@@ -42,6 +42,8 @@ elif len(sys.argv) == 1:
 else:
 	print "to call this program, enter: python obit.py <yyyy month_full dd>"
 	sys.exit()
+	
+html = 1
 
 # Create the URI to get the obit for the date in question.
 
@@ -68,6 +70,7 @@ for result in results:
     details  = details.encode('ascii', 'ignore')
     details = details.replace("\n", "")
     final_details = (details.split("     "))
+    
     print "<p>", "<strong>", final_details[0], "</strong>", final_details[6], "..."
 
 
