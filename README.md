@@ -16,6 +16,4 @@ Other files in this repo:
 - LICENSE
 - README.md
 
-For more information, see the comments section of the Python program(s).
-
-...
+For more information, see the comments section of the Python program(s)
